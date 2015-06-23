@@ -12,9 +12,13 @@ a terminal (*cmd* on Windows)::
 
    ipython notebook
 
+[X comment: when installing Anaconda 3.2, the appropriate shortcut - there is no icon in the Start menu - reads "IPython (Py 3.4) Notebook and is found under All Programs >> Anaconda (64-bit)]
+
 This will launch a new browser window (or a new tab) showing the
 :ref:`dashboard`, a sort of control panel that allows (among other things)
 to select which notebook to open.
+
+[X Comment: That doesn't correspond to what I see]
 
 When started, the :ref:`notebook_app` can access only files within its start-up folder
 (including any sub-folder). If you store the notebook documents in a subfolder
@@ -31,11 +35,18 @@ Change Jupyter Notebook startup folder (Windows)
 
 - Copy the *IPython Notebook* launcher from the menu to the desktop.
 
+[X Comment: you probably mean to create a shortcut on the Desktop?]
+
 - Right click on the new launcher and change the "Start in" field by pasting
   the folder previously chosen.
 
+[X Comment: you mean to say Right-Click and choose "Properties", select the "Shortcut" tab and edit the "Start in" field]
+
 - Double-click on the *IPython Notebook* launcher to start the
   :ref:`notebook_app`, which will open in a new browser window (or tab).
+  
+  [X Comment: Doesn't work for me. There is a python.exe console, but no browser page opened]
+  
   Note also that a secondary terminal window (used only for error logging and  
   for shut down) will be also opened.
 
